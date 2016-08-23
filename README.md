@@ -1,1 +1,3 @@
-# pickProcessor
+# PickProcessor
+
+MIT License
