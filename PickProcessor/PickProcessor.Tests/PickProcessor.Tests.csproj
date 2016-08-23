@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{5AF71CCD-812F-4B7F-8A63-781610B7A41A}</ProjectGuid>
+    <ProjectGuid>{A5E27D64-9097-421F-BEDE-46BCBCD35D8F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PickProcessor</RootNamespace>
-    <AssemblyName>PickProcessor</AssemblyName>
+    <RootNamespace>PickProcessor.Tests</RootNamespace>
+    <AssemblyName>PickProcessor.Tests</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -32,25 +32,10 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
-    <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>ExternalLibraries\UnityEngine.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Filters\Interfaces\IFilter.cs" />
-    <Compile Include="Filters\RemoveGreenFilter.cs" />
-    <Compile Include="Interfaces\IFilterProvider.cs" />
-    <Compile Include="FilterProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Model\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="ExternalLibraries\UnityEngine.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
